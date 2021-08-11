@@ -16,3 +16,7 @@
 	color: white;
 	background-color: blue;
 }
+
+.d-flex img {
+	text-align: center;
+}
