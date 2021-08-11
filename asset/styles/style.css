@@ -4,8 +4,21 @@
 	box-sizing: border-box;
 }
 
-.jumbotron {
-	margin-top: 60px;
+img {
+	max-width:  100%;
+}
+
+.section,
+.section .container {
+	position: relative;
+}
+
+.object-fit-image-hero {
+    object-fit: cover;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0;
 }
 
 .card-img-overlay {
@@ -19,4 +32,36 @@
 
 .d-flex img {
 	text-align: center;
+}
+
+.hero-content {
+    position: relative;
+    min-height: 500px;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.hero-content .prof-image {
+	margin-right: 20px;
+}
+
+.abs-title {
+	    position: absolute;
+    top: 20px;
+    z-index: 2;
+}
+
+h1	{
+	font-family: sans-serif;
+}
+
+.hobbies {
+	max-width: 10%;
+	display: flex;
+}
+
+.hobbies a {
+	padding: 90px;
+	font-family: sans-serif;
+	
 }
