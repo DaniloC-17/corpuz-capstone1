@@ -1,5 +1,18 @@
 * {
 	max-width: auto;
-	padding: 0;
-	
+	padding: auto;
+	box-sizing: border-box;
+}
+
+.jumbotron {
+	margin-top: 60px;
+}
+
+.card-img-overlay {
+	margin: 0;
+}
+
+.nav-link {
+	color: white;
+	background-color: blue;
 }
