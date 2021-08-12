@@ -2,7 +2,8 @@
 	max-width: auto;
 	padding: auto;
 	box-sizing: border-box;
-	font-family: sans-serif;
+	font-family: 'Recursive', sans-serif;
+
 }
 
 img {
@@ -26,6 +27,9 @@ img {
 	margin: 0;
 }
 
+.textabout {
+	font-size: 24px;
+}
 
 .d-flex img {
 	text-align: center;
@@ -43,7 +47,6 @@ img {
 	}
 }
 
-
 .hero-content .prof-image {
 	margin-right: 20px;
 }
@@ -53,7 +56,6 @@ img {
     top: 20px;
     z-index: 2;
 }
-
 
 .hobbies {
 	max-width: 10%;
@@ -68,10 +70,8 @@ img {
 
 .m-1p-1 {
 	background-color: light-blue;
-	padding-right: 30px;
-	
+	padding-right: 30px;	
 }
-
 
 #floatingTextarea {
 	height: 200px;
@@ -84,7 +84,7 @@ img {
 }
 
 .footer-bg {
-	background-color: #728c69;
+	background-color: #F2bc94;
 }
 
 .section h1 {
@@ -111,7 +111,7 @@ img {
 
 #contact {
 	background-color:  #f8f8f8;
-	
+
 }
 
 iframe {
@@ -130,22 +130,18 @@ iframe {
 .nav-link {
 	color: white;
 	background-color: #59788e;
-
 }
 
-.nav-link .tooltip { 
-	display: none; }
+h1 {
+	font-weight: bold;
+}
 
-.nav-link:hover + .tooltip { 
-	 }
-
-.nav-link {
+.nav {
   position: relative;
   display: inline-block;
-  border-bottom: 1px dotted black;
 }
 
-.nav-link .fa .fa-home .fa-3x {
+.nav .tooltip {
   visibility: hidden;
   width: 120px;
   background-color: black;
@@ -153,6 +149,7 @@ iframe {
   text-align: center;
   border-radius: 6px;
   padding: 5px 0;
+  position: absolute;
+  z-index: 1;
+}
 
-  .tooltip:hover .fa .fa-home .fa-3x {
-  	visibility: visible;

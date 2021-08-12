@@ -16,21 +16,26 @@
 
     <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
 
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Recursive:wght@300&display=swap" rel="stylesheet">
+
   </head>
   <body>
     <div id="nav" class="m-1p-1">
       <ul class="nav d-flex justify-content-end m-3 p-1">
         <li class="nav-item">
-          <a class="nav-link" aria-current="page" href="#homepage"><i class="fa fa-home fa-3x"></i><span class="tooltip">Home</span></a>
+          <a class="nav-link" aria-current="page" href="#homepage" title="Home"><i class="fa fa-home fa-3x"></i></a>
+          <span class="tooltip"></span>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#aboutme"><i class="fa fa-user fa-3x"></i></a>
+          <a class="nav-link" href="#aboutme" title="About Me"><i class="fa fa-user fa-3x"></i></a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#projects"><i class="fa fa-folder-open fa-3x"></i></a>
+          <a class="nav-link" href="#projects" title="Projects"><i class="fa fa-folder-open fa-3x"></i></a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#contact" tabindex="-1" aria-disabled="true"><i class="fa fa-phone fa-3x"></i></a>
+          <a class="nav-link" href="#contact" tabindex="-1" aria-disabled="true" title="Contact"><i class="fa fa-phone fa-3x"></i></a>
         </li>
       </ul>
     </div>
@@ -61,13 +66,13 @@
       <div class="aboutme-details d-flex">
         <div class="col-sm-7">
           <h1>About Me</h1>
-          <p><!-- Describe Myself -->
+          <p class="textabout"><!-- Describe Myself -->
             Hi my name is Danilo Corpuz, I am currently exploring the opportunity as a soft engineer.
             I am a very passionate, highly organized, and result oriented person. In terms of attitude
             I would like to believe that I am very honest and always willing to lend a helping hand. 
             I would like to use this opportunity for us to get to know each other better.    
           </p>
-          <p><!-- What I do and my motivation -->
+          <p class="textabout"><!-- What I do and my motivation -->
             I love developing webpages, seeing what I created run smoothly and being helpful to other give me a sense satisfaction and accomplishment. That motivates me to further learn and apply what I learn to
             this ever evolving world of technology.  
           </p>
@@ -116,7 +121,7 @@
       </div>
 
 
-      <h1>I'm Busy With</h1>
+      <h4>I'm Busy With</h4>
       <div class="container">
         <div class="row">
           <div class="col-sm-3">
@@ -183,7 +188,7 @@
 
   
   <div id="contact" class="section">
-    <h1>Contact Me</h1>
+    <h1 class="text-center">Contact Me</h1>
     <div class="container pt-5 pb-5">
       <div class="row">
         <div class="col-sm-6">
@@ -218,15 +223,20 @@
 <div class="footer-bg">
   <div>
     <div class="footer">
-      <footer >
-        <h3>Invite me on:</h3>
-        <a href="https://www.facebook.com/dnlneos"><i class="fa fa-facebook-square fa-3x"></i></a>
-        <a href="https://www.linkedin.com/in/danilo-jr-corpuz-195b9695/"><i class="fa fa-linkedin-square fa-3x"></i></a>
-        <a href="https://gitlab.com/daliuzneos167"><i class="fa fa-gitlab fa-3x"></i></a>     
+      <footer>
+        <div class="m-3">
+          <h3>Invite me on:</h3>
+          <a href="https://www.facebook.com/dnlneos"><i class="fa fa-facebook-square fa-3x"></i></a>
+          <a href="https://www.linkedin.com/in/danilo-jr-corpuz-195b9695/"><i class="fa fa-linkedin-square fa-3x"></i></a>
+          <a href="https://gitlab.com/daliuzneos167"><i class="fa fa-gitlab fa-3x"></i></a>
+        </div>     
       </footer>
     </div>
   </div>
 </div>
+
+
+
 
 
 
