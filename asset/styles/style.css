@@ -2,6 +2,7 @@
 	max-width: auto;
 	padding: auto;
 	box-sizing: border-box;
+	font-family: sans-serif;
 }
 
 img {
@@ -25,10 +26,6 @@ img {
 	margin: 0;
 }
 
-.nav-link {
-	color: white;
-	background-color: blue;
-}
 
 .d-flex img {
 	text-align: center;
@@ -36,10 +33,16 @@ img {
 
 .hero-content {
     position: relative;
-    min-height: 500px;
     align-items: center;
     flex-wrap: wrap;
 }
+
+@media(min-width:  768px) {
+	.hero-content {
+	    min-height: 70vh;
+	}
+}
+
 
 .hero-content .prof-image {
 	margin-right: 20px;
@@ -51,9 +54,6 @@ img {
     z-index: 2;
 }
 
-h1	{
-	font-family: sans-serif;
-}
 
 .hobbies {
 	max-width: 10%;
@@ -65,3 +65,94 @@ h1	{
 	font-family: sans-serif;
 	
 }
+
+.m-1p-1 {
+	background-color: light-blue;
+	padding-right: 30px;
+	
+}
+
+
+#floatingTextarea {
+	height: 200px;
+}
+
+.footer {
+	margin-left: 20px;
+	margin-bottom: 60px;
+	display: inline-block;
+}
+
+.footer-bg {
+	background-color: #728c69;
+}
+
+.section h1 {
+	margin: 20px;
+}
+
+.col-single {
+    display: flex;
+    flex-direction: column;
+}
+
+.col-single img {
+    max-width:  250px;
+}
+.aboutme-details {
+	flex-wrap: wrap;
+}
+
+@media(min-width:  768px) {
+	.aboutme-details > div:first-child {
+		padding-right:  30px;
+	}
+}
+
+#contact {
+	background-color:  #f8f8f8;
+	
+}
+
+iframe {
+	max-width: 100%;
+}
+
+#nav {
+	position: fixed;
+	height: 40px
+	top:  0;
+	width: 100%;
+	float: left;
+	z-index: 9;
+}
+
+.nav-link {
+	color: white;
+	background-color: #59788e;
+
+}
+
+.nav-link .tooltip { 
+	display: none; }
+
+.nav-link:hover + .tooltip { 
+	 }
+
+.nav-link {
+  position: relative;
+  display: inline-block;
+  border-bottom: 1px dotted black;
+}
+
+.nav-link .fa .fa-home .fa-3x {
+  visibility: hidden;
+  width: 120px;
+  background-color: black;
+  color: #fff;
+  text-align: center;
+  border-radius: 6px;
+  padding: 5px 0;
+
+  .tooltip:hover .fa .fa-home .fa-3x {
+  	visibility: visible;
