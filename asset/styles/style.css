@@ -109,6 +109,17 @@ img {
 	}
 }
 
+@media (max-width:  600px) {
+	#homepage {
+		padding-top: 5rem;	
+	}
+	.nav-item a {
+		font-size: 10px;
+	}
+
+}
+
+
 #contact {
 	background-color:  #f8f8f8;
 
